@@ -28,11 +28,7 @@ MY-Voice-Recorder works with USB better though it is not a must. While the micro
 usually serves as a good indicator of recorded voice quality, a few mic factors have an 
 impact. Checking the mic frequency response (the range of sounds it can hear) and sampling rate.
 
-=============
-
 ## Installation
-
-=============
 
 My-Voice-Recorder can be installed like any other Python library, using (a recent version of) the
 Python package manager pip, on Linux, macOS, and Windows:
