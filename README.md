@@ -29,15 +29,16 @@ usually serves as a good indicator of recorded voice quality, a few mic factors 
 impact. Checking the mic frequency response (the range of sounds it can hear) and sampling rate.
 
 =============
-Installation
+## Installation
 =============
 My-Voice-Recorder can be installed like any other Python library, using (a recent version of) the
 Python package manager pip, on Linux, macOS, and Windows:
 
-[int1] pip install myVOCRec
+            pip install myVOCRec
 
 or, to update your installed version to the latest release:
-[int2] pip install -u myVOCRec	
+
+            pip install -u myVOCRec	
 
 Recording files must be 25 sec. or longer of audio and in *.wav PCM/LPCM format, recorded at 48 kHz 
 sample frame and 24-32 bits of resolution or AIFF, AIFF-C, FLAC: must be native FLAC format; 
