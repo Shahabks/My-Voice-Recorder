@@ -3,7 +3,7 @@
 
 **My-Voice-Recorder** is a convenient and simple python package that can
 be used right in your machine. It allows you to record your voice using a microphone 
-and save it as an wav file. 
+and save it as a wav file. 
 
 My-Voice-Recorder was originally designed as a voice recorder for acoustic and language 
 research or creative endeavors. It was tested for our Automatic language identification 
