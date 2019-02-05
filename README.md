@@ -43,6 +43,32 @@ Recording files must be 25 sec. or longer of audio and in *.wav PCM/LPCM format,
 sample frame and 24-32 bits of resolution or AIFF, AIFF-C, FLAC: must be native FLAC format; 
 OGG-FLAC is not supported.
 
+## How it works
+
+Import in the Windows Command-Line or a notebook page:
+
+           [in 1] import myVOCRec as mc
+           [in 2] mc 
+
+and click run
+
+            [in 3] Enter the path to the datasets/audio files directory: 
+                   C:\Users\ta\Desktop\myLanguageIdentification\dataset\audioFiles
+            [in 4] what is your name?    sandy  # your audio file name in fact
+            [in 5] Your desired Recording time in seconds:    26                    # in sec. you can set for hours or few seconds.
+            [in 6] sampling rate; 16000 or 42000 or 48000 or 96000 Hz:    48000
+            [in 7] bit depth; 8 or 16 or 24 or 32 bit:    24
+          
+ and run.
+ 
+             [Out 1] ===========================================
+                        HOLD ON!! get ready, 5 seconds to go! 
+                     =========================================== 
+                     00:05  to 00:00            # get ready 5 sec.
+                     Recording start!
+                     00 : 26                    # set recording timer 
+                     00 : 00                    #press any key to exit
+
 please check out https://github.com/Shahabks/my-voice-recorder 
 
 myVOCRec was developed by MYOLUTION Lab in Japan. It is being used internally where the quality of 
